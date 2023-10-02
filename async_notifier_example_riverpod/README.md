@@ -2,13 +2,11 @@
 
 A simple project showing how to use the new `Notifier` and `AsyncNotifier` classes with Riverpod and [Riverpod Generator](https://pub.dev/packages/riverpod_generator).
 
-<img src="https://github.com/bizz84/async_notifier_example_riverpod/blob/main/.github/images/sign-in-page-example.png?raw=true" alt="AsyncNotifier example" width=50% height=50%>
-
 ## Implementation
 
 All the widgets and notifiers in the code are based on this article:
 
-- [How to use Notifier and AsyncNotifier with the new Flutter Riverpod Generator](https://codewithandrea.com/articles/flutter-riverpod-async-notifier/)
+- [Flutter Riverpod: Como registrar um ouvinte durante a inicialização do aplicativo](https://capsistema.com.br/index.php/2023/09/26/flutter-riverpod-como-registrar-um-ouvinte-durante-a-inicializacao-do-aplicativo/)
 
 ## Unit tests
 
