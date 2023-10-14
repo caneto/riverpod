@@ -98,9 +98,8 @@ class HomeScreen extends StatelessWidget {
               style: Styles.textTheme(context).headlineMedium,
             ),
           ),
-
           SizedBox(
-            width: MediaQuery.of(context).size.width,
+            width: MediaQuery.sizeOf(context).width,
             height: 50,
             child: ListView.builder(
               physics: const PageScrollPhysics(),
