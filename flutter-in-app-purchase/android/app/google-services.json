@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "252490808511",
+    "project_id": "in_app-jrgirotto",
+    "storage_bucket": "in_app-jrgirotto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252490808511:android:26ccaeada7b87d35879a0a",
+        "android_client_info": {
+          "package_name": "br.com.capsistema.in_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252490808511-ef4gjsiurr54hmqsqcd99v6da5ndhelq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.capsistema.in_app",
+            "certificate_hash": "4ee3919678666fdc1ca7f8d60842e09c1951ca56"
+          }
+        },
+        {
+          "client_id": "252490808511-jtqdt85ol0adq1rr38f8noev0k991bek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClz2iDkOChtyx3fVdPMuODHyiB8DEtstA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252490808511-jtqdt85ol0adq1rr38f8noev0k991bek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
