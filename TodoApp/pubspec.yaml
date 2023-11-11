@@ -1,0 +1,66 @@
+name: hive_todo_app
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  #State Management
+  hooks_riverpod: ^2.4.5
+  flutter_hooks: ^0.20.3
+  #Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  uuid: ^4.2.1
+  #Internationalization
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #Code Generator
+
+  build_runner: ^2.4.6
+  hive_generator: ^2.0.1
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
