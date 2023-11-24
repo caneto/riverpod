@@ -1,0 +1,4 @@
+#Sun Nov 19 19:06:16 GMT-03:00 2023
+base.0=E\:\\OneDrive\\Documentos\\GitHub\\riverpod\\flutter-fetchapi-with-riverpod-futureprovider\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

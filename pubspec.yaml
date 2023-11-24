@@ -1,0 +1,46 @@
+name: riverpod_gen_trial
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+ 
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  riverpod_widget_annotation: ^0.0.2
+  ##riverpod_widget_annotation: 
+  ##  path: ./riverpod_widget_annotation/
+  freezed: ^2.4.5
+  freezed_annotation: ^2.4.1
+  riverpod_annotation: ^2.0.0
+  flutter_riverpod: ^2.4.3
+  rive: ^0.12.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+  build_runner: ^2.3.3 
+  riverpod_generator: ^2.3.3
+  riverpod_feature_generator: ^0.0.12
+  ##riverpod_feature_generator:
+  ##  path: ./riverpod_feature_generator/
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+        - assets/
+
+
+  
