@@ -1,0 +1,1 @@
+ E:\\OneDrive\\Documentos\\GitHub\\riverpod\\flutter-fetchapi-with-riverpod-futureprovider\\.dart_tool\\flutter_build\\64b702b5da5919152842ca62e48ac60d\\native_assets.yaml: 
