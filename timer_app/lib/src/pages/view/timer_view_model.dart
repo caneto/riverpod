@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../enum/state.dart';
@@ -41,7 +42,9 @@ class TimerViewModel extends StateNotifier<TimerModel> {
   void checkIfFinished() {
     if (state.totalSecond == 0) {
       state.setTimerState(TimerState.reset);
-      print("The time has come");
+      if (kDebugMode) {
+        print("The time has come");
+      }
       _timer.cancel();
     }
   }
