@@ -1,0 +1,1 @@
+enum TimerState { start, stop, reset }
