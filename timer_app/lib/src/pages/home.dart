@@ -4,103 +4,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../enum/state.dart';
 import 'view/timer_view_model.dart';
 
-// class Home extends ConsumerWidget {
-//   Home({super.key});
-//   final List<int> smList = List.generate(60, (index) => index);
-//   final List<int> hList = List.generate(24, (index) => index);
-
-//   @override
-//   Widget build(BuildContext context, WidgetRef ref) {
-//     final state = ref.watch(timerViewModelProvider);
-//     final stateNotifier = ref.watch(timerViewModelProvider.notifier);
-//     return Scaffold(
-//       appBar: AppBar(title: const Text("Timer app")),
-//       body: Container(
-//         height: MediaQuery.of(context).size.height,
-//         width: double.infinity,
-//         alignment: Alignment.center,
-//         decoration: BoxDecoration(color: Colors.amber[200]),
-//         child: Column(
-//           mainAxisAlignment: MainAxisAlignment.center,
-//           crossAxisAlignment: CrossAxisAlignment.center,
-//           children: [
-//             Row(
-//               mainAxisAlignment: MainAxisAlignment.center,
-//               children: [
-//                 DropdownButton(
-//                   items: smList.map((int item) {
-//                     return DropdownMenuItem(
-//                       value: item,
-//                       child: Text(item.toString()),
-//                     );
-//                   }).toList(),
-//                   onChanged: (index) {
-//                     stateNotifier.setTotalSecond(index!,
-//                         stateNotifier.getMinute(), stateNotifier.getHour());
-//                   },
-//                 ),
-//                 const SizedBox(
-//                   width: 70,
-//                 ),
-//                 DropdownButton(
-//                   items: smList.map((int item) {
-//                     return DropdownMenuItem(
-//                       value: item,
-//                       child: Text(item.toString()),
-//                     );
-//                   }).toList(),
-//                   onChanged: (index) {
-//                     stateNotifier.setTotalSecond(stateNotifier.getSecond(),
-//                         index!, stateNotifier.getHour());
-//                   },
-//                 ),
-//                 const SizedBox(
-//                   width: 70,
-//                 ),
-//                 DropdownButton(
-//                   items: hList.map((int item) {
-//                     return DropdownMenuItem(
-//                       value: item,
-//                       child: Text(item.toString()),
-//                     );
-//                   }).toList(),
-//                   onChanged: (index) {
-//                     stateNotifier.setTotalSecond(stateNotifier.getSecond(),
-//                         stateNotifier.getMinute(), index!);
-//                   },
-//                 ),
-//               ],
-//             ),
-//             const SizedBox(
-//               width: 70,
-//             ),
-//             ElevatedButton(
-//               onPressed: () {
-//                 if (state.timerState == TimerState.start) {
-//                   stateNotifier.setTimerState(TimerState.stop);
-//                   stateNotifier.stopTimer();
-//                 } else {
-//                   stateNotifier.setTimerState(TimerState.start);
-//                   stateNotifier.startTimer();
-//                 }
-//               },
-//               child: const Text("Start"),
-//             ),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
-
-class Home2 extends ConsumerStatefulWidget {
-  const Home2({super.key});
+class Home extends ConsumerStatefulWidget {
+  const Home({super.key});
 
   @override
-  ConsumerState<ConsumerStatefulWidget> createState() => _Home2State();
+  ConsumerState<ConsumerStatefulWidget> createState() => _HomeState();
 }
 
-class _Home2State extends ConsumerState<Home2> {
+class _HomeState extends ConsumerState<Home> {
   final List<int> smList = List.generate(60, (index) => index);
   final List<int> hList = List.generate(24, (index) => index);
   int second = 0;
@@ -154,7 +65,7 @@ class _Home2State extends ConsumerState<Home2> {
               ],
             ),
             child: Container(
-              height: MediaQuery.of(context).size.height,
+              height: MediaQuery.sizeOf(context).height,
               width: double.infinity,
               alignment: Alignment.center,
               decoration: BoxDecoration(

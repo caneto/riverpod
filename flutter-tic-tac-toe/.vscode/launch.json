@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Flutter-Tic-Tac-Toe-main",
+            "name": "flutter-tic-tac-toe",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "Flutter-Tic-Tac-Toe-main (profile mode)",
+            "name": "flutter-tic-tac-toe (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "Flutter-Tic-Tac-Toe-main (release mode)",
+            "name": "flutter-tic-tac-toe (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

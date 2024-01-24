@@ -79,7 +79,7 @@ class MainMenuButtons extends StatelessWidget {
         child: ElevatedButton(
           onPressed: onPressed,
           style: ElevatedButton.styleFrom(
-            backgroundColor: GameColors.kForeground,
+            backgroundColor: GameColors.kBackground,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(10),
             ),
