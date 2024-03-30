@@ -15,9 +15,8 @@ class MyApp extends StatelessWidget {
       title: 'Timer app',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
       ),
-      home: const Home2(),
+      home: const Home(),
     );
   }
 }
